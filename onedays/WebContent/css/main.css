@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+#top{
+border-top:30px solid #C3E4DF;
+width : 100%;
+height: 120px;
+background-color:#FFF;
+position : relative; 
+z-index : 99999;
+}
+#body1{
+width: 100%;
+background-color:#fff;
+} 
+
+#footer{
+width: 100%;
+background-color:#C3E4DF;
+height:280px; 
+color:#fff;
+}
+
+.footerText{
+	padding-left:5%;
+	width:28%; 
+	float:left;
+	font-size: 1.2em;
+}
+.logobox{
+	width : 200px;
+	height: auto;
+	position : absolute; 
+	top: 20px;
+}
+.centerBox{
+	width : 1200px;
+	margin : 0 auto;
+	position:relative; /*띄운걸 잡아줌*/
+}
+.rightBox{
+	position : absolute; /*띄움*/
+	top: 0;
+	right:0;
+	width: 65%; 
+}
+.navi li{
+	float:left;
+	list-style-type:none;
+	position: relative;  
+	background:#fff;
+	line-height: 40px;
+	padding:0; 
+}
+
+.navi p{
+	float:left;
+	padding-left:3%;
+}
+.navi li:last-child{padding-right:8%;}
+
+
+<!-- -->
+.navi { 
+		list-style-type: none; 
+		height: 40px; 
+		padding: 0; 
+		margin: 0;
+	    z-index:9999; 
+}
+	
+
+.navi li a { 
+		display: block; 
+		font-family:"굴림"; 
+		font-weight:600; 
+		font-size:14px;
+		padding: 5px 25px; 
+		color: #558A5C;
+		text-decoration: none; 
+}
+	
+.navi li a:hover {
+		color:#F90;
+}
+	
+.navi li ul {
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		width: 180px;
+		background: none;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+}
+
+.navi li:hover ul {
+		opacity: 1;
+}
+
+.navi li ul li {
+		float: none;
+		position: static;
+		height: 0;
+		line-height: 0;
+		background: none;
+}
+	
+.navi li:hover ul li {
+		height: 30px; 
+		line-height: 30px;
+		padding:5px 0;
+}
+	
+.navi li ul li a {
+		background: #C3E4DF; 
+		font-family:"굴림"; 
+		font-weight:600; 
+		font-size:14px;
+		color:#558A5C; 
+}
+	
+.navi li ul li a:hover {background: #2c6d59; }
+
+.navi li { 
+		transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-o-transition: all 0.2s;
+}
+.navi li a { 
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s; 
+		-moz-transition: all 0.5s; 
+		-o-transition: all 0.5s; 
+}
+.navi li ul { 
+		transition: all 1s; 
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-o-transition: all 1s;
+}
+.navi li ul li { 
+		transition: height 0.5s;
+		-webkit-transition: height 0.5s;
+		-moz-transition: height 0.5s;
+		-o-transition: height 0.5s;
+}
+
+<!-- -->
+
+.btn a{
+	width:18%;
+	float:left;
+	background-color: #2c6d59;
+	margin-right: 1%;
+	margin-left: 1%;
+	line-height: 50px;
+	color:#fff;
+	font-family:"굴림"; 
+	font-weight:600; 
+	font-size:25px;
+	width:18%;
+	margin-bottom: 1%;
+	text-decoration: none; 
+	border-radius: 15px;
+}
+.btn a:hover{
+	color:#2c6d59;
+	background-color:#fff;
+}
+.btnList{
+	width:100%;
+	text-align: center;	
+}
+<!-- -->
+.double{
+	width:48%; margin:0 1%; float:left;
+}
+
+.wrap_box{
+	width:80%; margin:1% auto;
+	margin-bottom: 10%;
+}
+.small_txt{
+	color:#6E6E6E;
+	font-size:1em;
+}
+.medium_txt{
+	font-size:2em; font-weight:bold;
+	font-family:"굴림"; 
+	color:#6E6E6E;
+}
+
+.week_box{
+	margin-top:2%;
+    padding:2%;
+    background:#df8086;
+    border-radius:15px;
+}
+
+.sub_tit{
+	width:100%; font-size:2em; color:#fff; padding:2% 0;
+	position: relative;
+	font-family:"굴림"; 
+}
+
+.day{
+	text-align:right;
+	position: absolute;
+	right:0;
+	font-family:"굴림"; 
+}
+
+.list_box{
+	background:#f8b6b7; padding:1%; border-radius:10px;
+}
+
+.mini_tit{
+	font-size:1.3em; color:#fff; padding-left:1%; 
+}
+
+.section1,.section2,.section3{
+	background:#fff; padding:3%; border-radius:5px;
+}
+
+
+<!-- -->
+.double div[name=calendar]{
+	width: 90%;
+	padding:3%;
+	margin-top:15%;
+}
+
+.double table{
+	text-align: center;
+	width:80%;
+}
+
+.double h3{
+	text-align:center;
+	margin:0 auto 0 30%;
+}
